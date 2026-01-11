@@ -2,12 +2,12 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-2.5.0-blue.svg)
+![Version](https://img.shields.io/badge/version-3.0.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Electron](https://img.shields.io/badge/Electron-28.0.0-47848F.svg)
 
-**Track your League of Legends ranked sessions in real-time with a beautiful floating overlay**
+**Track your League of Legends ranked sessions in real-time with a beautiful Discord-style interface and floating overlay**
 
 [Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Screenshots](#-screenshots) • [FAQ](#-troubleshooting)
 
@@ -16,6 +16,14 @@
 ---
 
 ## ✨ Features
+
+### 🎨 Modern Discord-Style Interface (NEW in 3.0!)
+- 🖼️ **Frameless window** with custom title bar
+- 🎯 **Integrated window controls** (minimize, maximize, close)
+- 🌙 **Dark theme** with smooth gradients
+- 📱 **Draggable title bar** for window movement
+- ⚙️ **Collapsible sections** for clean organization
+- 🎨 **Professional design** with attention to detail
 
 ### 🎯 Dual Tracking Modes
 
@@ -27,11 +35,12 @@
 - 🎨 **Tryhard Mode** with special visual effects
 
 #### **MULTI Mode** - Multi-Account Rotation
-- 🔄 Auto-rotate through all your accounts (8s intervals)
+- 🔄 Auto-rotate through all your accounts (configurable interval)
 - 💾 Independent session tracking per account
 - 📊 Individual stats for each account
 - ⚡ Smart caching system (91% fewer API requests)
 - 🎨 Works with Tryhard Mode
+- ⚙️ **Configurable rotation speed** (3-30 seconds)
 
 ### 🖥️ Overlay System
 
@@ -49,6 +58,9 @@
 
 ### 🎨 Visual Features
 
+- **Discord-Style Interface** - Modern frameless window with custom controls
+- **Collapsible Sections** - Organized UI with expandable panels
+- **Custom Title Bar** - Integrated minimize, maximize, close buttons
 - **Rank Icons** - Animated rank emblems with glow effects
 - **Color-Coded Stats** - Green for wins, red for losses
 - **Tryhard Mode** - 🔥 Epic red visual effects with pulsing animations
@@ -374,7 +386,32 @@ overlayWindow.webContents.openDevTools({ mode: 'detach' });
 
 ## 📝 Changelog
 
-### v2.5.0 (Latest) - Production Ready
+### v3.0.0 (Latest) - UI Redesign 🎨
+- ✅ **Frameless window** with custom title bar
+- ✅ **Integrated window controls** (minimize, maximize, close)
+- ✅ **Draggable title bar** for window movement
+- ✅ **Collapsible sections** for better organization
+- ✅ **MULTI mode configuration panel** with adjustable rotation speed
+- ✅ **Modern dark theme**
+- ✅ **Improved layout** with better space utilization
+- ✅ **Enhanced visual polish** throughout the app
+
+### v2.7.1 - MULTI Mode Configuration
+- ✅ Configurable rotation interval (3-30 seconds)
+- ✅ Visual feedback on configuration changes
+- ✅ Account counter in MULTI mode
+
+### v2.6.2 - MULTI Mode Handlers
+- ✅ Fixed IPC handlers for MULTI mode
+- ✅ Switch between SINGLE/MULTI modes
+- ✅ Proper state management
+
+### v2.6.0 - Collapsible UI
+- ✅ Expandable/collapsible sections
+- ✅ Cleaner interface organization
+- ✅ Better first-time user experience
+
+### v2.5.0 - Production Ready
 - ✅ Removed debugging logs
 - ✅ Optimized for production
 - ✅ Clean console output
@@ -447,6 +484,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 🐛 **Bug Reports**: [Open an issue](https://github.com/yourusername/lol-session-tracker/issues)
 - 💡 **Feature Requests**: [Open an issue](https://github.com/yourusername/lol-session-tracker/issues)
 - 📧 **Contact**: arturoxcs@gmail.com
+
 ---
 
 ## ⚠️ Disclaimer
