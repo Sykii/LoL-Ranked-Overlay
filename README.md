@@ -446,8 +446,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - 🐛 **Bug Reports**: [Open an issue](https://github.com/yourusername/lol-session-tracker/issues)
 - 💡 **Feature Requests**: [Open an issue](https://github.com/yourusername/lol-session-tracker/issues)
-- 📧 **Contact**: your.email@example.com
-
+- 📧 **Contact**: arturoxcs@gmail.com
 ---
 
 ## ⚠️ Disclaimer
